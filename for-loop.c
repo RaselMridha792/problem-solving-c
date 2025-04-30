@@ -20,6 +20,13 @@ int main () {
       // }
       // printf("%d\n", sum);
 
-      
+      // Print Multiplication Table
+      int a;
+      scanf("%d", &a);
+      int Multiplication = 0;
+      for(int i = 0; i < 10; i++){
+            Multiplication = Multiplication + a;
+            printf("%d\n", Multiplication);
+      }
     return 0;
 }
